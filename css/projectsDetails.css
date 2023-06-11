@@ -1,0 +1,40 @@
+.img-screenshot {
+    display: block;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.thisproject-img {
+    display: block;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.projectDetails-header {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.project-description {
+    line-height: 1.5;
+    max-width: 250px;
+    margin: auto
+}
+
+.project-links {
+    max-width: 250px;
+    margin: auto;
+}
+
+.projectLink {
+    font-weight: 700;
+    color: black;
+}

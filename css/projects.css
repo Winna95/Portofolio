@@ -1,0 +1,42 @@
+.project-header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.project-img {
+    width: 200px;
+    height: 130px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.project-btn {
+    color: #fff;
+    background-color: #464646;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    width: 220px;
+    margin: 20px auto;
+}
+
+.project-btn:hover {
+    opacity: 80%;
+    transform: scale(1.1);
+}
+
+#placeholder {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: auto;
+}
+.project-grid {
+    margin: auto;
+}
+.project-div {
+    display: grid;
+    margin: auto;
+    margin-top: 50px;
+}

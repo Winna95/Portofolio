@@ -1,0 +1,287 @@
+@media (min-width: 500px) {
+    .about-paragraph {
+        max-width: 350px;
+    }
+    .about-img {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .about-header-two {
+        margin-left: 30px;
+    }
+
+    #placeholder {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        max-width: 600px;
+    }
+}
+@media (min-width: 650px) {
+nav {
+    display: block;
+    position: relative;
+    background-color: #D8D8D8;
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+li a:hover {
+    color: #d34972;
+    font-weight: 600;
+}
+
+header label {
+    display: none;
+}
+.grid-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+    margin: auto;
+}
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 500px;
+    margin: auto;
+}
+.contact-paragraph {
+    max-width: 500px;
+}
+.description-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 700px;
+    margin: auto;
+}
+.img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 700px;
+    margin: auto;
+}
+.project-description {
+    max-width: 300px;
+}
+.project-links {
+    margin-left: 20px;
+}
+
+}
+
+@media (min-width: 750px) {
+    .grid-homepage {
+        max-width: 700px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .grid-two {
+        grid-column: 2;
+        grid-row: 1;
+        margin-top: 50px;
+    }
+}
+@media (min-width: 900px) {
+    h1 {
+        font-size: 50px;
+        font-weight: 800;
+    }
+    main {
+        font-size: 22px;
+    }
+    .grid-homepage {
+        max-width: 900px;
+    }
+    .header-text {
+        max-width: 450px;
+        font-size: 40px;
+        margin: auto;
+    }
+    .header-paragraph {
+        max-width: 420px;
+        margin-left: 0px;
+        font-size: 28px;
+    }
+    .contact-link {
+        font-size: 28px;
+    }
+
+    .buttons {
+        max-width: 450px;
+        margin-top: 80px;
+        margin-left: -20px;
+
+    }
+    .btn-pink {
+        width: 180px;
+        font-size: 20px;
+    }
+    .Img-of-me {
+        width: 400px;
+        height: 400px;
+    }
+    .grid-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 800px;
+    }
+    .projects-description {
+        font-size: 18px;
+    }
+    .latestProject-header {
+        margin-top: 100px;
+    }
+    .grid-one {
+        margin-top: 150px;
+    }
+    .about-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 890px;
+        margin: auto;
+    }
+    .about-grid-one {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .about-grid-two {
+        grid-column: 1;
+        grid-row: 1;
+        margin-top: 100px;
+    }
+    .max-width-750 {
+        max-width: 750px;
+        margin: auto;
+    }
+    .about-header-two {
+        text-align: left;
+        margin-left: 30px;
+    }
+    .skills-section {
+        margin-left: 30px;
+        max-width: 550px;
+    }
+    
+    .grid-do {
+        max-width: 700px;
+        margin-left: 0px;
+        gap: 100px;
+    }
+    .do-paragraph {
+        max-width: 250px;
+    }
+    .contact-grid {
+        max-width: 800px;
+    }
+    .contact-paragraph {
+        max-width: 700px;
+    }
+    .contact-img {
+        width: 300px;
+        height: 300px;
+    }
+    #placeholder {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto;
+        max-width: 850px;
+    }
+    .project-img {
+        width: 250px;
+        height: 150px;
+    }
+    .project-btn {
+        font-size: 20px;
+        width: 250px;
+    }
+    .description-grid {
+        max-width: 900px;
+    }
+    .img-grid {
+        max-width: 900px; 
+    }
+    .project-description {
+        max-width: 500px;
+        font-size: 20px;
+    }
+    .img-screenshot {
+        width: 400px;
+        height: 300px;
+    }
+    .thisproject-img {
+        width: 400px;
+        height: 250px;
+    }
+    .project-links {
+        margin-left: 0;
+        max-width: 300px;
+    }
+    
+}
+@media (min-width: 1200px) {
+    .grid-cards {
+        width: 1150px;
+    }
+    .card {
+        width: 350px;
+    }
+    .projects-description {
+        width: 300px;
+    }
+    .related-links {
+        width: 300px;
+        display: flex;
+        gap: 50px;
+    }
+    .projects-image {
+        width: 300px;
+        height: 200px;
+    }
+    .about-grid {
+        max-width: 1000px;
+    }
+    .about-img {
+        width: 400px;
+        height: 400px;
+    }
+    .about-paragraph {
+        max-width: 500px;
+    }
+    .about-grid-one {
+        margin-top: 100px;
+    }
+    #placeholder {
+        max-width: 1150px;
+    }
+    .project-img {
+        width: 350px;
+        height: 200px;
+    }
+}
+@media (min-width: 1500px) {
+    #placeholder {
+        max-width: 1450px;
+    }
+    .project-img {
+        width: 430px;
+        height: 260px;
+    }
+}

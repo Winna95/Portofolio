@@ -1,0 +1,55 @@
+body {
+    background-color: #d8d8d8;
+    font-family: 'Open Sans', sans-serif;
+}
+main {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+nav {
+    margin-right: 0;
+    display: none;
+    position: fixed;
+    background: #d34972;
+    z-index: 1000;
+    right: 0px;
+    left: 0px;
+    padding: 1px 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+a {
+    font-size: 20px;
+    font-weight: 300;
+    margin: auto;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul {
+    padding: 0px;
+
+}
+
+nav li {
+    display: block;
+    padding: 15px 30px;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+    max-width: 250px;
+}
+
+.menu-icon {
+    text-align: right;
+}

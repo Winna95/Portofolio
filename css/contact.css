@@ -1,0 +1,30 @@
+.contact-header {
+        text-align: center;
+        margin-top: 50px;
+}
+
+.contact-paragraph {
+    max-width: 350px;
+    margin: auto;
+}
+
+.contact-info {
+    max-width: 350px;
+    margin: auto;
+}
+
+.contact-img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.link-text {
+    color: black;
+    font-weight: 800;
+}
