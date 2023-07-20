@@ -11,7 +11,7 @@
         margin-left: 30px;
     }
 
-    #placeholder {
+    #placeholder, #placeholderSpareTime {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: auto;
@@ -199,7 +199,7 @@ header label {
         width: 300px;
         height: 300px;
     }
-    #placeholder {
+    #placeholder, #placeholderSpareTime {
         grid-template-columns: 1fr 1fr 1fr;
         margin: auto;
         max-width: 850px;
@@ -268,7 +268,7 @@ header label {
     .about-grid-one {
         margin-top: 100px;
     }
-    #placeholder {
+    #placeholder, #placeholderSpareTime {
         max-width: 1150px;
     }
     .project-img {
@@ -277,7 +277,7 @@ header label {
     }
 }
 @media (min-width: 1500px) {
-    #placeholder {
+    #placeholder, #placeholderSpareTime {
         max-width: 1450px;
     }
     .project-img {

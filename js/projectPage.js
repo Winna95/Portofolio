@@ -1,6 +1,5 @@
-import {allProjects} from "./projects.js";
+import {allProjects, spareTimeProjects} from "./projects.js";
 
-console.log(allProjects);
 
 const htmlElement = document.querySelector("#placeholder");
 
@@ -14,8 +13,26 @@ allProjects.forEach(thisProject => {
         alt="screenshot of project"
         class="project-img"
       />
-      <a href="projectsDetails.html?projectId=${thisProject.id}" class="project-btn">${thisProject.projectName}</a>
+      <a href="projectsDetails.html?projectId=${thisProject.id}&projectType=${thisProject.type}" class="project-btn">${thisProject.projectName}</a>
     </div>
   </div>`
 });
 htmlElement.innerHTML = projectHTML;
+
+const htmlElementSpareTime = document.querySelector("#placeholderSpareTime");
+
+let spareTimeHtml = '';
+
+spareTimeProjects.forEach(thisProject => {
+  spareTimeHtml = spareTimeHtml + `<div class="project-grid">
+  <div class="project-grid-one project-div">
+  <img
+  src="${thisProject.img}"
+  alt="screenshot of project"
+  class="project-img"
+  />
+  <a href="projectsDetails.html?projectId=${thisProject.id}&projectType=${thisProject.type}" class="project-btn">${thisProject.projectName}</a>
+  </div>
+  </div>`
+});
+htmlElementSpareTime.innerHTML = spareTimeHtml;

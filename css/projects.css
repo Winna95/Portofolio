@@ -26,12 +26,14 @@
     transform: scale(1.1);
 }
 
-#placeholder {
+#placeholder, #placeholderSpareTime {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
     margin: auto;
 }
+
+
 .project-grid {
     margin: auto;
 }

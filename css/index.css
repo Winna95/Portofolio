@@ -104,3 +104,9 @@
 .project-link:hover {
     color: #d34972;
 }
+
+.sparetime-h3 {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
