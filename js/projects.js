@@ -68,18 +68,6 @@ const projectFive = {
 const projectSix = {
     id: 6,
     type: 'school',
-    projectName: "Front-end frameworks",
-    decription: "This is a school project to apply knowledge of React to build an eCom store. The Api used for this brief is: https://v2.api.noroff.dev/online-shop. The task was to build out the following pages for an eCom store: HomePage, ContactPage, Individual Product page, Cart page and Checkout success page.",
-    img: "images/Skjermbilde 2024-03-26 140241.png",
-    imgTwo: "images/Skjermbilde 2024-03-26 140300.png",
-    imgThree: "images/Skjermbilde 2024-03-26 140329.png",
-    netlifyLink: "https://frontend-frameworks-ca.netlify.app/",
-    gitHubLink: "https://github.com/Winna95/2024-03-19_Frontend-Frameworks_CA_Winnie-Orbek.fp",
-    figmaLink: "https://www.figma.com/file/Qbbx9HyHl1NOvXnfFeuPkl/Untitled?type=design&node-id=0%3A1&mode=design&t=wMiSneH4HGUFuoYb-1",
-};
-const projectSeven = {
-    id: 7,
-    type: 'school',
     projectName: "Semester Project 2",
     decription: "In semester project two we were tasked to take the skills learned over the past three semesters and create an auction website. The brief was: An auction site is looking to launch a website where users can add items to be bid on and bid on items other users have put up for auction." ,
     img: "images/Skjermbilde 2024-03-26 142040.png",
@@ -88,6 +76,19 @@ const projectSeven = {
     netlifyLink: "https://winna95.github.io/2023-12-17_Semester-Project-2_CA_Winnie-Orbek_fp/index.html",
     gitHubLink: "https://github.com/Winna95/2023-12-17_Semester-Project-2_CA_Winnie-Orbek_fp",
     figmaLink: "https://www.figma.com/file/fOlp0Vq3VRgiD0SqjnzZ0g/2023-12-17_Semester-Project-2_CA_Winnie-Orbek_fp?type=design&node-id=7%3A767&mode=design&t=XuymZ7u7CnzoJCHN-1",
+};
+const projectSeven = {
+    id: 7,
+    type: 'school',
+    projectName: "Front-end frameworks",
+    decription: "This is a school project to apply knowledge of React to build an eCom store. The Api used for this brief is: https://v2.api.noroff.dev/online-shop. The task was to build out the following pages for an eCom store: HomePage, ContactPage, Individual Product page, Cart page and Checkout success page.",
+    img: "images/Skjermbilde 2024-03-26 140241.png",
+    imgTwo: "images/Skjermbilde 2024-03-26 140300.png",
+    imgThree: "images/Skjermbilde 2024-03-26 140329.png",
+    netlifyLink: "https://frontend-frameworks-ca.netlify.app/",
+    gitHubLink: "https://github.com/Winna95/2024-03-19_Frontend-Frameworks_CA_Winnie-Orbek.fp",
+    figmaLink: "https://www.figma.com/file/Qbbx9HyHl1NOvXnfFeuPkl/Untitled?type=design&node-id=0%3A1&mode=design&t=wMiSneH4HGUFuoYb-1",
+
 };
 
 const allProjects = [projectOne, projectTwo, projectThree, projectSix, projectSeven]
